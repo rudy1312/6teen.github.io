@@ -1,0 +1,44 @@
+body, html{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-image: url("5278631-macbook-pro-office-perspective-laptop-laptop-mockup-tech-dark-night-apple-device-workstation-mockup-work-home-homeoffice-illuminate-illumination-technology-tech-product-public-domain-images.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+.container{
+    height: 100vh;
+    width: auto;
+}
+h1{
+    margin-bottom: 20rem;
+    /*text-align: center;*/
+    font-size: 3.5em;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+hr{
+    width: 65px;
+    border: 0.15em solid rgb(253, 0, 0);
+    border-radius: 5px;
+}
+.btn-primary{
+    border-color: #ff6cb2;
+    background-color: #ff6cb2;
+    border-radius: 2em;
+    width:10em;
+    transition: transform 0.3s;
+}
+.btn-primary:hover{
+    background-color: #cc2071;
+    border-color: #cc2071;
+    transform: scale(1.1);
+}
+.btn-primary:active{
+    background-color: #cc2071!important;
+    border-color: #ff6cb2!important;
+    transform: scale(1.0)!important;
+}
